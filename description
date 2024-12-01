@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>  
+ <link rel="stylesheet" href="main.css">
+ <title>Викторина по фильмам</title>
+</head>
+
+<body>
+  
+    
+    <h1>Викторина по фильмам</h1>
+    <p>Добро пожаловать на викторину по фильмам! Здесь вы можете проверить свои знания о киноискусстве и узнать что-то новое о популярных фильмах.</p>
+    <div class="category-block">
+      <h2 style="font-size: 28px;font-family:'Bookman, URW Bookman L';color:#489be9;">Выберите категорию</h2>
+      <button class="category-button" id="myButton" style="font-size: 20px;font-family:'Bookman, URW Bookman L';color:#190b98;">Всё ради смеха!</button>
+      <button class="category-button" id="myButton2" style="font-size: 20px;font-family:'Bookman, URW Bookman L';color:#190b98;">Для любителей русскоязычного кино</button>
+      <button class="category-button" id="myButton3" style="font-size: 20px;font-family:'Bookman, URW Bookman L';color:#190b98;">Факты о режиссёрах</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+    <main style="min-height: 100%;">
+      <style>
+      body 
+      {
+        margin-top: 15%;
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('glavnaya.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      
+      h1 
+      {
+      color: #ffffff;
+      text-align: start;
+      font-size: 54px;
+      margin-top: 100px;
+      margin-left: 70px;
+      }
+      
+      p 
+      {
+      color: #fdfdfd;
+      font-size: 24px;
+      text-align: start;
+      margin-left: 70px;
+      margin-right: 600px;
+      line-height: 1.5;
+      }
+    </style>
+  </main>
+
+
+</html>
